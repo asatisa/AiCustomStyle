@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Full Width Chat",
+  "version": "0.9.0",
+  "description": "ปรับหน้าต่างแชท Gemini ให้กว้างขึ้น",
+  "content_scripts": [
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "css": ["content.css"]
+    }
+  ]
+}

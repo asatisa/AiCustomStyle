@@ -1,0 +1,18 @@
+/* ปรับหน้าต่างหลักให้เป็น Full Width */
+body, .infinite-scroll-container, .main-content-container, mat-sidenav-content {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* ปรับกล่องข้อความให้ขยายเต็มพื้นที่ */
+.response-container-wrapper,
+.chat-response {
+    max-width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* ปรับกล่องพิมพ์ข้อความ (Input Box) */
+.input-area-container {
+    max-width: 95% !important;
+}
