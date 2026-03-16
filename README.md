@@ -1,3 +1,19 @@
+# AI Custom Style (v1.1.0)
+
+Maximize your workspace for AI Chat. This extension removes width limits on Gemini, Claude, and ChatGPT.
+
+## Supported Platforms
+- Google Gemini
+- Claude.ai
+- ChatGPT
+
+## Installation
+1. Open `chrome://extensions/`
+2. Load unpacked `src` folder.
+3. Refresh your AI tabs.
+
+---
+
 # AI Custom Style (v0.9.0)
 
 A lightweight Chrome Extension designed to enhance the viewing experience on Google Gemini by maximizing chat window and input box width. It removes excessive side margins, making it easier to read long responses and analyze technical data.

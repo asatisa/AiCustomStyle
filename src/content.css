@@ -1,18 +1,30 @@
-/* ปรับหน้าต่างหลักให้เป็น Full Width */
-body, .infinite-scroll-container, .main-content-container, mat-sidenav-content {
-    max-width: 100% !important;
-    width: 100% !important;
+/* --- AI Custom Style v1.1.0 --- */
+
+/* 1. Gemini Fix (Fixing the narrow width bug) */
+div[class*="chat-view-container"],
+div[class*="infinite-scroller"],
+.message-content,
+.response-container-wrapper {
+    max-width: 98% !important;
+    width: 98% !important;
 }
 
-/* ปรับกล่องข้อความให้ขยายเต็มพื้นที่ */
-.response-container-wrapper,
-.chat-response {
+/* 2. Claude.ai Fix */
+.max-w-3xl, 
+.max-w-2xl {
     max-width: 95% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
 }
 
-/* ปรับกล่องพิมพ์ข้อความ (Input Box) */
-.input-area-container {
+/* 3. ChatGPT Fix */
+.main-content,
+.xl\:max-w-\[48rem\],
+.lg\:max-w-\[40rem\] {
     max-width: 95% !important;
+}
+
+/* Universal Input Box Expansion */
+div[role="textbox"],
+textarea,
+form {
+    max-width: 98% !important;
 }
